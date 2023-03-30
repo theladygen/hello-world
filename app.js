@@ -6,7 +6,7 @@ function pickACat() {
   let favoriteCat = prompt(
     "Now that you've met all of us fine felines, do tell: who's your favorite cat??"
   );
-  favoriteCat = favoriteCat.toLowerCase();
+  favoriteCat = favoriteCat.trim().toLowerCase();
   console.log("favorite cat", favoriteCat);
   if (favoriteCat == "oliver") {
     alert("Bold choice. I like it.");
