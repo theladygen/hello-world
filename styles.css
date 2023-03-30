@@ -59,6 +59,18 @@ section p {
 section { 
     border-bottom: 2px solid #283618;
 }
+#favorite-cat {
+    text-align: center;
+}
+button {
+    background-color: rgba(40, 54, 24, .65);
+    color: #fefae0;
+    margin: 2em;
+    font-size: 16pt;
+    padding: 1em;
+    border-radius: 2em;
+    font-family: inherit;
+}
 footer p {
     color: #fefae0;
     text-align: right;
