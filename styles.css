@@ -12,15 +12,12 @@ h1 {
     color: #fefae0;
     text-align: center;
     font-size: 4em;
-    /* margin-bottom: 2em; */
 }
 nav {
     text-align: center;
 }
 li {
     display: inline-block;
-    /* margin: 1em; */
-    /* padding: 1em; */
 }
 a {
     margin: 4em;
@@ -31,23 +28,19 @@ img {
     height: auto;
     max-width: 40%;
 }
-#oliver {
+section:nth-child(odd) img {
     float: left;
 }
-#sophie {
+section:nth-child(even) img {
     float: right;
 }
-#fox {
-    float: left;
-}
-#albus {
+section:nth-child(odd) article {
     float: right;
 }
-#bug {
+section:nth-child(even) article {
     float: left;
 }
 article {
-    float: right;
     max-width: 60%;
 }
 h3 {
