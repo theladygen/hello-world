@@ -1,84 +1,84 @@
 body {
-    font-family: 'Quicksand', sans-serif;
-    margin: 0%;
-    background-color: #606c38;
+  font-family: "Quicksand", sans-serif;
+  margin: 0%;
+  background-color: #606c38;
 }
 header {
-    background-color: rgba(40, 54, 24, .65);
-    border-top: 10px solid #283618;
-    border-bottom: 10px solid #283618;
+  background-color: rgba(40, 54, 24, 0.65);
+  border-top: 10px solid #283618;
+  border-bottom: 10px solid #283618;
 }
 h1 {
-    color: #fefae0;
-    text-align: center;
-    font-size: 4em;
+  color: #fefae0;
+  text-align: center;
+  font-size: 4em;
 }
 nav {
-    text-align: center;
+  text-align: center;
 }
 li {
-    display: inline-block;
+  display: inline-block;
 }
 a {
-    margin: 4em;
-    text-decoration: none;
-    color:#ecf39e;
-} 
+  margin: 4em;
+  text-decoration: none;
+  color: #ecf39e;
+}
 img {
-    height: auto;
-    max-width: 40%;
+  height: auto;
+  max-width: 40%;
 }
 section:nth-child(odd) img {
-    float: left;
+  float: left;
 }
 section:nth-child(even) img {
-    float: right;
+  float: right;
 }
 section:nth-child(odd) article {
-    float: right;
+  float: right;
 }
 section:nth-child(even) article {
-    float: left;
+  float: left;
 }
 article {
-    max-width: 60%;
+  max-width: 60%;
 }
 h3 {
-    color: #fefae0;
-    font-size: 2em;
-    margin: 1em;
+  color: #fefae0;
+  font-size: 2em;
+  margin: 1em;
 }
 .clear {
-    clear: both;
+  clear: both;
 }
 section p {
-    color: #ecf39e;
-    height: auto;
-    margin: 2em;
+  color: #ecf39e;
+  height: auto;
+  margin: 2em;
 }
-section { 
-    border-bottom: 2px solid #283618;
+section {
+  border-bottom: 2px solid #283618;
 }
 #favorite-cat {
-    text-align: center;
+  text-align: center;
 }
 button {
-    background-color: rgba(40, 54, 24, .65);
-    color: #fefae0;
-    margin: 2em;
-    font-size: 16pt;
-    padding: 1em;
-    border-radius: 2em;
-    font-family: inherit;
+  background-color: rgba(40, 54, 24, 0.65);
+  color: #fefae0;
+  margin: 2em;
+  font-size: 16pt;
+  padding: 1em;
+  border-radius: 2em;
+  font-family: inherit;
 }
 footer p {
-    color: #fefae0;
-    text-align: right;
-    margin-right: 2em;
-    font-size: large;
+  color: #fefae0;
+  text-align: right;
+  margin-right: 2em;
+  font-size: large;
 }
 footer {
-    margin-bottom: 0;
-    border-top: 10px solid #283618;
-    border-bottom: 10px solid #283618;
+  margin-bottom: 0;
+  border-top: 10px solid #283618;
+  border-bottom: 10px solid #283618;
 }
