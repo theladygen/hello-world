@@ -6,6 +6,7 @@ function greeting(){
     alert("Hi " + userName + ", welcome to Studio Le Mew! 😸");
   }
 }
+greeting();
 
 function pickACat() {
   let favoriteCat = prompt(
