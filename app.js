@@ -1,6 +1,11 @@
-let userName = prompt("What's your name?");
-console.log("userName is", userName);
-alert("Hi " + userName + ", welcome to Studio Le Mew! 😸");
+function greeting(){
+  let userName = prompt("What's your name?");
+  if (userName == ""){
+    userName = prompt ("Aw, don't be shy! I promise we don't bite.");
+    console.log("userName is", userName);
+    alert("Hi " + userName + ", welcome to Studio Le Mew! 😸");
+  }
+}
 
 function pickACat() {
   let favoriteCat = prompt(
