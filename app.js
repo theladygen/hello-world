@@ -30,10 +30,10 @@ function pickACat() {
 
 function catbutts() {
   let numbutts = prompt(
-  "Be a kitten and rate us? Between 1 & 5, please... 1 isn't grrreat, but 5 is purrfection!"
+  "Be a kitten and on a scale of 1 to 5 rate how much you like cats, 5 meaning they're purrfection.😽"
   );
   while (numbutts < 1 || numbutts > 5) {
-    numbutts = prompt ("Aw, come on! Pretty please with cream on top??");
+    numbutts = prompt ("Oops! Pick a number between 1 and 5. I will say, you've definitely got a 5'ish kinda vibe about you...)");
   }
   for (let i = 0; i < numbutts; i++) {
     document.write("<img src='images/catbutt.jpeg' alt='photo of a floofy cat booty'/>");
