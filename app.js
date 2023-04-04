@@ -1,12 +1,11 @@
-function greeting(){
+function greeting() {
   let userName = prompt("What's your name?");
-  if (userName == ""){
+  while (userName == ""){
     userName = prompt ("Aw, don't be shy! I promise we don't bite.");
-    console.log("userName is", userName);
-    alert("Hi " + userName + ", welcome to Studio Le Mew! 😸");
   }
+  console.log("userName is", userName);
+  document.write("<p id='greeting'>Hi " + userName + ", welcome to Studio Le Mew! 😸</p>");
 }
-greeting();
 
 function pickACat() {
   let favoriteCat = prompt(
@@ -26,5 +25,17 @@ function pickACat() {
     alert("Aw, who doesn't love a love Bug?!");
   } else {
     alert("Ahhhh interesting. You should introduce us!");
+  }
+}
+
+function catbutts() {
+  let numbutts = prompt(
+  "Be a kitten and rate us? Between 1 & 5, please... 1 isn't grrreat, but 5 is purrfection!"
+  );
+  while (numbutts < 1 || numbutts > 5) {
+    numbutts = prompt ("Aw, come on! Pretty please with cream on top??");
+  }
+  for (let i = 0; i < numbutts; i++) {
+    document.write("<img src='images/catbutt.jpeg' alt='photo of a floofy cat booty'/>");
   }
 }

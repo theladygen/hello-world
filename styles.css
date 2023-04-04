@@ -8,6 +8,16 @@ header {
   border-top: 10px solid #283618;
   border-bottom: 10px solid #283618;
 }
+#greeting {
+  text-align: center;
+  color: #ecf39e;
+}
+#catbutts {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    border: none;
+}
 h1 {
   color: #fefae0;
   text-align: center;
